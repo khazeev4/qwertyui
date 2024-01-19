@@ -18,4 +18,18 @@ fun main(){
         var response:Float = pervoe.toFloat() / vtoroe
         println(response)
     }
+    when(deystvie){
+        "+" ->{var r = pervoe + vtoroe
+            print("$pervoe + $vtoroe = ${pervoe + vtoroe}")
+        }
+
+        "-" ->print(pervoe - vtoroe)
+    }
+    when(deystvie){
+        "*" -> { var r = pervoe * vtoroe
+            print(r)
+        }
+
+        "/" -> print(pervoe / vtoroe)
+    }
 }
